@@ -1915,7 +1915,7 @@ input, select, textarea {
 		background: #fff;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		text-align: center;
-		padding: 2em;
+    padding: 2em;
 	}
 
 		.box.style1 {
@@ -1936,7 +1936,12 @@ input, select, textarea {
 			top: 2em;
 			margin: -4em 0 4em -4em;
 			width: auto;
-		}
+    }
+    
+    .box.project {
+      position: relative;
+      min-height: 525px;
+    }
 
 /* Icons */
 
@@ -2139,7 +2144,16 @@ input, select, textarea {
 
 	#contact footer {
 		font-size: 0.9em;
-	}
+  }
+  
+
+/* My custom CSS */
+.github-link {
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  right: 0;
+}
 
 /* Copyright */
 
@@ -2351,7 +2365,7 @@ input, select, textarea {
 
 			.box {
 				padding: 30px 20px 30px 20px;
-				margin: 0 0 20px 0 !important;
+        margin: 0 0 20px 0 !important;
 			}
 
 				.box h3 {
@@ -2380,7 +2394,8 @@ input, select, textarea {
 					max-width: 32em;
 					margin-left: auto !important;
 					margin-right: auto !important;
-				}
+          min-height: 600px;
+        }
 
 		/* Wrappers */
 
