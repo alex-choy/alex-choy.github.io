@@ -2155,6 +2155,12 @@ input, select, textarea {
   right: 0;
 }
 
+  .project-img {
+    height: 205px;
+  }
+
+  .about-me > p {
+  }
 /* Copyright */
 
 	#copyright {
