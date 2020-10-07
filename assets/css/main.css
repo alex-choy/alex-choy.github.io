@@ -1850,6 +1850,10 @@ input, select, textarea {
 
 				ul.social li a.fa-github {
 					background-color: #FAFAFA;
+        }
+
+				ul.social li a.fa-envelope {
+					background-color: #FAFAFA;
 				}
 
 				ul.social li a.fa-rss {
@@ -1975,9 +1979,9 @@ input, select, textarea {
 			display: none;
 		}
 
-		.icon.solid:before {
+		/* .icon.solid:before {
 			font-weight: 900;
-		}
+		} */
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
